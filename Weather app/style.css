@@ -6,6 +6,9 @@
 }
 body{
     background: #222;
+    padding-left: 500px;
+    padding-top: 50px;
+    
 }
 .card{
     width: 90%;
@@ -48,7 +51,7 @@ body{
     width: 50px;
 }
 .weather-icon{
-    width: 170px;
+    width: 200px;
     margin-top: 30px;
 }
 .weather h1{
@@ -60,6 +63,7 @@ body{
     font-weight: 400;
     margin-top: -10px;
 }
+
 .details{
     display: flex;
     align-items: center;
@@ -73,8 +77,8 @@ body{
     text-align: left;
 }
 .col img{
-    width: 40px;
-    margin-right: 10px;
+    width: 100px;
+    margin-right: 5px;
 }
 .humidity, .wind{
     font-size: 20px;
